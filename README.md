@@ -26,7 +26,7 @@ Vectorizer.save_weights()
 ### Above methods will create 2 files as below:
 ![Document_Example](/assets/Files.png)
 
-# load files & Intialize
+# Load files & Intialize
 ```R
 sparse_matrix = sp.load_npz(os.path.join('','tf_idf.npz'))
 with open(os.path.join('','features.txt')) as f:
